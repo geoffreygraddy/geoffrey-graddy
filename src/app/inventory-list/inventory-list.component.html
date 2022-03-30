@@ -31,7 +31,11 @@
         </thead>
         <tbody>
           <tr *ngFor='let item of filteredItems'>
-            <td>{{ item.name }}</td>
+            <td>
+              <a [routerLink]="['/items', item.inventoryId]">
+                {{ item.name }}
+              </a>
+            </td>
             <td>{{ item.serialNumber }}</td>
             <td>{{ item.amountPaid | currency:'USD':'symbol':'1.2-2' }}</td>
             <td>{{ item.datePurchased }}</td>

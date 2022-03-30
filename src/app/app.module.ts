@@ -1,30 +1,32 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
-import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { HomeInventoryFormComponent } from './home-inventory-form/home-inventory-form.component';
-import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { InventoryListComponent } from './inventory-list/inventory-list.component';
+import { HomeModule } from './home/home.module';
+import { InventoryItemDetailModule } from './inventory-item-detail/inventory-item-detail.module';
+import { InventoryItemFormModule } from './inventory-item-form/inventory-item-form.module';
+import { InventoryListModule } from './inventory-list/inventory-list.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeInventoryFormComponent,
-    InventoryListComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule,
+    HomeModule,
     HttpClientModule,
-    ButtonsModule.forRoot(),
-    BsDatepickerModule.forRoot(),
-    BrowserAnimationsModule
+    InventoryItemDetailModule,
+    InventoryItemFormModule,
+    InventoryListModule,
+    BrowserAnimationsModule,
+    RouterModule.forRoot([
+      { path: '', redirectTo: 'home', pathMatch: 'full'},
+      { path: '**', redirectTo: 'home', pathMatch: 'full'}
+    ])
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

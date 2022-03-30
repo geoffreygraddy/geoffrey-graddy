@@ -1,18 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm, NgModel } from '@angular/forms';
 import { Observable } from 'rxjs';
+
 import { DataService } from '../data/data.service';
 import { InventoryItem } from '../data/inventory-item';
 
 @Component({
-  selector: 'home-inventory-form',
-  templateUrl: './home-inventory-form.component.html',
-  styleUrls: ['./home-inventory-form.component.css']
+  selector: 'inventory-item-form',
+  templateUrl: './inventory-item-form.component.html',
+  styleUrls: ['./inventory-item-form.component.css']
 })
-export class HomeInventoryFormComponent implements OnInit {
+export class InventoryItemFormComponent implements OnInit {
 
   originalInventoryItem: InventoryItem = {
     name: '',
+    inventoryId: 11,
     location: '',
     serialNumber: '',
     amountPaid: 0,

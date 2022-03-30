@@ -1,6 +1,6 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { catchError, Observable, of, tap, throwError } from 'rxjs';
+import { catchError, map, Observable, of, tap, throwError } from 'rxjs';
 
 import { InventoryItem } from './inventory-item';
 
@@ -35,6 +35,13 @@ export class DataService {
         catchError(this.handleError)
       );
       
+  }
+
+  getItem(id: number): Observable<InventoryItem | undefined> {
+    return this.getInventory()
+      .pipe(
+        map((products: InventoryItem[]) => products.find(p => p.inventoryId === id))
+      );
   }
 
   getLocations(): Observable<string[]> {

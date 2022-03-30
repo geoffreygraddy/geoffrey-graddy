@@ -1,5 +1,6 @@
 export interface InventoryItem {
   name: string,
+  inventoryId: number,
   serialNumber: string,
   amountPaid: number,
   datePurchased: Date,

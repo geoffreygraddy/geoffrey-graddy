@@ -1,6 +1,7 @@
 [
   {
   "name": "Trek Bicycle",
+  "inventoryId": 1,
   "serialNumber": "t1r2e3k4",
   "amountPaid": 1200,
   "datePurchased": "December 15, 2018",
@@ -11,6 +12,7 @@
 },
 {
   "name": "Gold Necklace",
+  "inventoryId": 2,
   "serialNumber": null,
   "amountPaid": 1200,
   "datePurchased": "March 19, 1989",
@@ -21,6 +23,7 @@
 },
 {
   "name": "LG C1 TV",
+  "inventoryId": 3,
   "serialNumber": "A32D0K-0239",
   "amountPaid": 2200,
   "datePurchased": "February 10, 2022",
@@ -31,6 +34,7 @@
 },
 {
   "name": "2020 Macbook Air",
+  "inventoryId": 4,
   "serialNumber": "C02CG0BHM6KK",
   "amountPaid": 1200,
   "datePurchased": "June 2, 2020",
@@ -41,6 +45,7 @@
 },
 {
   "name": "Panasonic TV",
+  "inventoryId": 5,
   "serialNumber": "H23LKJ02930",
   "amountPaid": 1800,
   "datePurchased": "August 5, 2012",
@@ -51,6 +56,7 @@
 },
 {
   "name": "LG Refridgerator",
+  "inventoryId": 6,
   "serialNumber": "O382N2302893",
   "amountPaid": 2100,
   "datePurchased": "March 5, 2022",
@@ -61,6 +67,7 @@
 },
 {
   "name": "LG Range",
+  "inventoryId": 7,
   "serialNumber": "L0293IEWO",
   "amountPaid": 3300,
   "datePurchased": "March 5, 2022",
@@ -71,6 +78,7 @@
 },
 {
   "name": "Sectional",
+  "inventoryId": 8,
   "serialNumber": "",
   "amountPaid": 1700,
   "datePurchased": "July 19, 2021",
@@ -81,6 +89,7 @@
 },
 {
   "name": "Game Worn Matt Ryan Jersey",
+  "inventoryId": 9,
   "serialNumber": "",
   "amountPaid": 5000,
   "datePurchased": "April 19, 2016",
@@ -91,6 +100,7 @@
 },
 {
   "name": "Mower",
+  "inventoryId": 10,
   "serialNumber": "S23J023L",
   "amountPaid": 700,
   "datePurchased": "April 2, 2013",
