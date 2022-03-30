@@ -8,11 +8,13 @@ import { AppComponent } from './app.component';
 import { HomeInventoryFormComponent } from './home-inventory-form/home-inventory-form.component';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { InventoryListComponent } from './inventory-list/inventory-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeInventoryFormComponent
+    HomeInventoryFormComponent,
+    InventoryListComponent
   ],
   imports: [
     BrowserModule,

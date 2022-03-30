@@ -1,0 +1,102 @@
+[
+  {
+  "name": "Trek Bicycle",
+  "serialNumber": "t1r2e3k4",
+  "amountPaid": 1200,
+  "datePurchased": "December 15, 2018",
+  "notes": "Red FX 5",
+  "location": "Garage",
+  "isFlagged": false,
+  "isArchived": false
+},
+{
+  "name": "Gold Necklace",
+  "serialNumber": null,
+  "amountPaid": 1200,
+  "datePurchased": "March 19, 1989",
+  "notes": "Inherited from moether",
+  "location": "Safe",
+  "isFlagged": false,
+  "isArchived": false
+},
+{
+  "name": "LG C1 TV",
+  "serialNumber": "A32D0K-0239",
+  "amountPaid": 2200,
+  "datePurchased": "February 10, 2022",
+  "notes": null,
+  "location": "Bedroom",
+  "isFlagged": false,
+  "isArchived": false
+},
+{
+  "name": "2020 Macbook Air",
+  "serialNumber": "C02CG0BHM6KK",
+  "amountPaid": 1200,
+  "datePurchased": "June 2, 2020",
+  "notes": "Geoffrey's Laptop",
+  "location": "House",
+  "isFlagged": false,
+  "isArchived": false
+},
+{
+  "name": "Panasonic TV",
+  "serialNumber": "H23LKJ02930",
+  "amountPaid": 1800,
+  "datePurchased": "August 5, 2012",
+  "notes": "Plasma TV",
+  "location": "Living Room",
+  "isFlagged": false,
+  "isArchived": false
+},
+{
+  "name": "LG Refridgerator",
+  "serialNumber": "O382N2302893",
+  "amountPaid": 2100,
+  "datePurchased": "March 5, 2022",
+  "notes": "",
+  "location": "Kitchen",
+  "isFlagged": false,
+  "isArchived": false
+},
+{
+  "name": "LG Range",
+  "serialNumber": "L0293IEWO",
+  "amountPaid": 3300,
+  "datePurchased": "March 5, 2022",
+  "notes": "",
+  "location": "Kitchen",
+  "isFlagged": false,
+  "isArchived": false
+},
+{
+  "name": "Sectional",
+  "serialNumber": "",
+  "amountPaid": 1700,
+  "datePurchased": "July 19, 2021",
+  "notes": "West Elm Sectional",
+  "location": "Living Room",
+  "isFlagged": false,
+  "isArchived": false
+},
+{
+  "name": "Game Worn Matt Ryan Jersey",
+  "serialNumber": "",
+  "amountPaid": 5000,
+  "datePurchased": "April 19, 2016",
+  "notes": "Framed",
+  "location": "Bed Room",
+  "isFlagged": false,
+  "isArchived": false
+},
+{
+  "name": "Mower",
+  "serialNumber": "S23J023L",
+  "amountPaid": 700,
+  "datePurchased": "April 2, 2013",
+  "notes": "Honda",
+  "location": "Garage",
+  "isFlagged": false,
+  "isArchived": false
+}
+]

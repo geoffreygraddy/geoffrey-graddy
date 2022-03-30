@@ -16,6 +16,7 @@ export class HomeInventoryFormComponent implements OnInit {
     location: '',
     serialNumber: '',
     amountPaid: 0,
+    datePurchased: new Date(),
     notes: '',
     isFlagged: false,
     isArchived: false
