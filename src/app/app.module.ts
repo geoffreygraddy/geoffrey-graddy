@@ -9,6 +9,7 @@ import { HomeModule } from './home/home.module';
 import { InventoryItemDetailModule } from './inventory-item-detail/inventory-item-detail.module';
 import { InventoryItemFormModule } from './inventory-item-form/inventory-item-form.module';
 import { InventoryListModule } from './inventory-list/inventory-list.module';
+import { MaterialModule } from './shared/material.module';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { InventoryListModule } from './inventory-list/inventory-list.module';
     InventoryItemFormModule,
     InventoryListModule,
     BrowserAnimationsModule,
+    MaterialModule,
     RouterModule.forRoot([
       { path: '', redirectTo: 'home', pathMatch: 'full'},
       { path: '**', redirectTo: 'home', pathMatch: 'full'}
